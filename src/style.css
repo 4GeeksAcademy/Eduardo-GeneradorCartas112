@@ -1,5 +1,49 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background: rgb(132, 188, 132);
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
+
+.card {
+    width: 20vw;
+    min-width: 150px;
+    max-width: 250px;
+    height: 40vh;
+    min-height: 200px;
+    max-height: 400px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Georgia", serif;
+}
+
+#palo1 {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  font-size: 4.5em;
+}
+
+#palo2 {
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  transform: rotate(180deg);
+  font-size: 4.5em;
+}
+
+/* Número grande y centrado */
+#numero {
+  font-size: 4em;
+  font-weight: bold;
+}
+
